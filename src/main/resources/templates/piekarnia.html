@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8" />
+    <title>Sklep</title>
+</head>
+<body>
+
+<!--<a href="/"><&#45;&#45;&#45;&#45; Powrót na stronę główną</a>-->
+
+<h1 th:text="${product.name}"></h1>
+
+<img th:src="${animal.imageUrl}" />
+
+<p th:text="${animal.description}"></p>
+
+
+</body>
+</html>
